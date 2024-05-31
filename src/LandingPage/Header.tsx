@@ -4,7 +4,7 @@ import { HiOutlineMapPin } from "react-icons/hi2";
 
 function Header() {
     return (
-        <div className=' flex flex-col justify-center'>
+        <head className=' flex flex-col justify-center'>
             <div className='flex justify-center flex-wrap gap-96 items-center mt-4'>
                 <img className='w-44 -ml-20' src={logoitapedro} alt="logo itapedro" />
                 <div className='flex gap-16 flex-wrap'>
@@ -29,7 +29,7 @@ function Header() {
             <div className='flex justify-center mt-52 mb-10'>
                 <img className='w-10' src={setinha} alt="setinha" />
             </div>
-        </div>
+        </head>
     )
 }
 
