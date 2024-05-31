@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className='min-h-screen w-full bg-bg-vinho'>
-        <div className='bg-background-itapedro'>
+        <div className='bg-background-itapedro bg-no-repeat bg-cover'>
           <Header />
           <Oevento />
         </div>
